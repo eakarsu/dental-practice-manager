@@ -1,0 +1,29 @@
+{
+  "id": "dental-practice-manager",
+  "title": "Dental Practice Manager App",
+  "industry": "Healthcare & Life Sciences",
+  "industryId": "healthcare-life-sciences",
+  "specialization": "Dental Practice Manager",
+  "sourcePlatformGroup": "allied-health-practice-platform",
+  "sources": [
+    "AIDentalLabCaseManager",
+    "AIDentalPracticeManager",
+    "dental"
+  ],
+  "featureCount": 96,
+  "candidateFeatureCount": 146,
+  "eliminatedSimilarFeatures": 50,
+  "evidenceCount": 127,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 0,
+    "seededTables": 0,
+    "seededRows": 0
+  },
+  "visibleFeatureCount": 52,
+  "featureVisibilityMode": "source-backed-fallback"
+}

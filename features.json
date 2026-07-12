@@ -1,0 +1,2749 @@
+[
+  {
+    "name": "AI Draft",
+    "canonicalKey": "ai draft",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-draft"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/notes.js:107",
+        "route": "/ai-draft",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Personalize",
+    "canonicalKey": "ai personalize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-personalize"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/recalls.js:74",
+        "route": "/:id/ai-personalize",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Preauth",
+    "canonicalKey": "ai preauth",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-preauth"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/insurance.js:74",
+        "route": "/:id/ai-preauth",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Adjust",
+    "canonicalKey": "adjust",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/adjust"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/inventory.js:84",
+        "route": "/:id/adjust",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Appointment No Show Prediction",
+    "canonicalKey": "appointment no prediction show",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/appointment-no-show-prediction"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:154",
+        "route": "/cf/appointment-no-show-prediction",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Bottleneck Prediction",
+    "canonicalKey": "bottleneck prediction",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bottleneck-prediction"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/ai.js:232",
+        "route": "/bottleneck-prediction",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Case Kanban",
+    "canonicalKey": "case kanban",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/case-kanban"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/aiNew.js:133",
+        "route": "/case-kanban",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Case Spec Pdf",
+    "canonicalKey": "case pdf spec",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/case-spec-pdf"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/customViews.js:95",
+        "route": "/case-spec-pdf",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Appointment No Show Prediction",
+    "canonicalKey": "appointment cf no prediction show",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAppointmentNoShowPrediction"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/CfAppointmentNoShowPrediction.js",
+        "route": "/CfAppointmentNoShowPrediction",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Defect Prevention",
+    "canonicalKey": "cf defect prevention",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfDefectPrevention"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/CfDefectPrevention.jsx",
+        "route": "/CfDefectPrevention",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Insurance Claim Automation",
+    "canonicalKey": "automation cf claim insurance",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfInsuranceClaimAutomation"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/CfInsuranceClaimAutomation.js",
+        "route": "/CfInsuranceClaimAutomation",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Patient Risk Stratification",
+    "canonicalKey": "cf patient risk stratification",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPatientRiskStratification"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/CfPatientRiskStratification.js",
+        "route": "/CfPatientRiskStratification",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Predictive AI Diagnostics",
+    "canonicalKey": "ai cf diagnostic predictive",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPredictiveAiDiagnostics"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/CfPredictiveAiDiagnostics.js",
+        "route": "/CfPredictiveAiDiagnostics",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Predictive Turnaround Time",
+    "canonicalKey": "cf predictive time turnaround",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPredictiveTurnaroundTime"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/CfPredictiveTurnaroundTime.jsx",
+        "route": "/CfPredictiveTurnaroundTime",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Quality Scoring",
+    "canonicalKey": "cf quality scoring",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfQualityScoring"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/CfQualityScoring.jsx",
+        "route": "/CfQualityScoring",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Supply Chain Optimization",
+    "canonicalKey": "cf chain optimization supply",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfSupplyChainOptimization"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/CfSupplyChainOptimization.jsx",
+        "route": "/CfSupplyChainOptimization",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Technician Skill Matching",
+    "canonicalKey": "cf matching skill technician",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfTechnicianSkillMatching"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/CfTechnicianSkillMatching.jsx",
+        "route": "/CfTechnicianSkillMatching",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Treatment Outcome Prediction",
+    "canonicalKey": "cf outcome prediction treatment",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfTreatmentOutcomePrediction"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/CfTreatmentOutcomePrediction.js",
+        "route": "/CfTreatmentOutcomePrediction",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Change Healthcare",
+    "canonicalKey": "change healthcare",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/eligibility/change-healthcare"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/integrations.js:88",
+        "route": "/eligibility/change-healthcare",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Check Conflicts",
+    "canonicalKey": "check conflict",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/check-conflicts"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/scheduling.js:45",
+        "route": "/check-conflicts",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Claim Automation",
+    "canonicalKey": "automation claim",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/claim-automation"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/claimAutomation.js:58",
+        "route": "/claim-automation",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Defect Prevent",
+    "canonicalKey": "defect prevent",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/defect-prevent"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/defectPrevent.js:57",
+        "route": "/defect-prevent",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Draft Communication",
+    "canonicalKey": "communication draft",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/draft-communication"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/ai.js:186",
+        "route": "/draft-communication",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Eligible",
+    "canonicalKey": "eligible",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/eligibility/eligible"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/integrations.js:74",
+        "route": "/eligibility/eligible",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Pacs Integration Only Integrations Js Stub",
+    "canonicalKey": "gap integration integrations js limited only pacs stub",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapLimitedPacsIntegrationOnlyIntegrationsJsStub"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapLimitedPacsIntegrationOnlyIntegrationsJsStub.js",
+        "route": "/GapLimitedPacsIntegrationOnlyIntegrationsJsStub",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Missing Predict Treatment Outcome Identify Recall Candidates",
+    "canonicalKey": "candidate gap identify missing outcome predict recall treatment",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapMissingPredictTreatmentOutcomeIdentifyRecallCandidates"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapMissingPredictTreatmentOutcomeIdentifyRecallCandidates.js",
+        "route": "/GapMissingPredictTreatmentOutcomeIdentifyRecallCandidates",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Calendar Integration Despite Scheduling",
+    "canonicalKey": "calendar despite gap integration no scheduling",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoCalendarIntegrationDespiteScheduling"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapNoCalendarIntegrationDespiteScheduling.js",
+        "route": "/GapNoCalendarIntegrationDespiteScheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Dentist Customer Communication Template Library",
+    "canonicalKey": "communication customer dentist gap library no template",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoDentistCustomerCommunicationTemplateLibrary"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoDentistCustomerCommunicationTemplateLibrary.jsx",
+        "route": "/GapNoDentistCustomerCommunicationTemplateLibrary",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Detailed Case Detail Schema Materials Dentist Contact Pat",
+    "canonicalKey": "case contact dentist detailed gap materials no pat schema",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoDetailedCaseDetailSchemaMaterialsDentistContactPat"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoDetailedCaseDetailSchemaMaterialsDentistContactPat.jsx",
+        "route": "/GapNoDetailedCaseDetailSchemaMaterialsDentistContactPat",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Electronic Health Records Ehr Compliance Layer",
+    "canonicalKey": "compliance ehr electronic gap health layer no records",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoElectronicHealthRecordsEhrComplianceLayer"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapNoElectronicHealthRecordsEhrComplianceLayer.js",
+        "route": "/GapNoElectronicHealthRecordsEhrComplianceLayer",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Insurance Eligibility Verification Adapter",
+    "canonicalKey": "adapter eligibility gap insurance no verification",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoInsuranceEligibilityVerificationAdapter"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapNoInsuranceEligibilityVerificationAdapter.js",
+        "route": "/GapNoInsuranceEligibilityVerificationAdapter",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Intraoral Camera Integration",
+    "canonicalKey": "camera gap integration intraoral no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoIntraoralCameraIntegration"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapNoIntraoralCameraIntegration.js",
+        "route": "/GapNoIntraoralCameraIntegration",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Inventory Management For Materials",
+    "canonicalKey": "for gap inventory material no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoInventoryManagementForMaterials"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoInventoryManagementForMaterials.jsx",
+        "route": "/GapNoInventoryManagementForMaterials",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Quality Metric Or Defect Tracker",
+    "canonicalKey": "defect gap metric no or quality tracker",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoQualityMetricOrDefectTracker"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoQualityMetricOrDefectTracker.jsx",
+        "route": "/GapNoQualityMetricOrDefectTracker",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Reporting Beyond Stubs",
+    "canonicalKey": "beyond gap no reporting stub",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoReportingBeyondStubs"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoReportingBeyondStubs.jsx",
+        "route": "/GapNoReportingBeyondStubs",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhooks",
+    "canonicalKey": "gap no webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWebhooks"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager",
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoWebhooks.jsx",
+        "route": "/GapNoWebhooks",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapNoWebhooks.js",
+        "route": "/GapNoWebhooks",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Workflow Stage Tracking Received In Progress Completed De",
+    "canonicalKey": "completed de gap in no progress received stage tracking workflow",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWorkflowStageTrackingReceivedInProgressCompletedDe"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoWorkflowStageTrackingReceivedInProgressCompletedDe.jsx",
+        "route": "/GapNoWorkflowStageTrackingReceivedInProgressCompletedDe",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap None All AI Functions Are Covered Highest AI Density",
+    "canonicalKey": "ai all are covered density functions gap highest none",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoneAllAiFunctionsAreCoveredHighestAiDensity"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/GapNoneAllAiFunctionsAreCoveredHighestAiDensity.jsx",
+        "route": "/GapNoneAllAiFunctionsAreCoveredHighestAiDensity",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Patient Portal Is Scaffolded But Reminder System Incomplete",
+    "canonicalKey": "but gap incomplete is patient portal reminder scaffolded",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapPatientPortalIsScaffoldedButReminderSystemIncomplete"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapPatientPortalIsScaffoldedButReminderSystemIncomplete.js",
+        "route": "/GapPatientPortalIsScaffoldedButReminderSystemIncomplete",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Xraycv Lacks AI Diagnosis Endpoint Diagnose From Xray",
+    "canonicalKey": "ai diagnose diagnosis endpoint from gap lacks xray xraycv",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapXraycvLacksAiDiagnosisEndpointDiagnoseFromXray"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/GapXraycvLacksAiDiagnosisEndpointDiagnoseFromXray.js",
+        "route": "/GapXraycvLacksAiDiagnosisEndpointDiagnoseFromXray",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Identify Recall Candidates",
+    "canonicalKey": "candidate identify recall",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/identify-recall-candidates"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:378",
+        "route": "/identify-recall-candidates",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Implant Torque Review",
+    "canonicalKey": "implant review torque",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ImplantTorqueReview"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "frontend/src/pages/ImplantTorqueReview.jsx",
+        "route": "/ImplantTorqueReview",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Insurance Claim Automation",
+    "canonicalKey": "automation claim insurance",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/insurance-claim-automation"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:155",
+        "route": "/cf/insurance-claim-automation",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Insurance Claim Optimization",
+    "canonicalKey": "claim insurance optimization",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/insurance-claim-optimization"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:562",
+        "route": "/insurance-claim-optimization",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Insurance Claims",
+    "canonicalKey": "claim insurance",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/InsuranceClaims"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/InsuranceClaims.js",
+        "route": "/InsuranceClaims",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Insurance Preauth",
+    "canonicalKey": "insurance preauth",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/insurance-preauth"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:46",
+        "route": "/insurance-preauth",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Limited Pacs Integration Only Integrations Js Stub",
+    "canonicalKey": "integration integrations js limited only pacs stub",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/limited-pacs-integration-only-integrations-js-stub"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:158",
+        "route": "/gap/limited-pacs-integration-only-integrations-js-stub",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Login Test Failure Png",
+    "canonicalKey": "failure login png test",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "login-test-failure.png"
+    ],
+    "sourceProjects": [
+      "dental"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "tests/login.spec.js:86",
+        "route": "login-test-failure.png",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Material Order Advisor",
+    "canonicalKey": "advisor material order",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/material-order-advisor"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/aiNew.js:203",
+        "route": "/material-order-advisor",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Material Recommendation",
+    "canonicalKey": "material recommendation",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/material-recommendation"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/ai.js:99",
+        "route": "/material-recommendation",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Missing Predict Treatment Outcome Identify Recall Candidates",
+    "canonicalKey": "candidate identify missing outcome predict recall treatment",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/missing-predict-treatment-outcome-identify-recall-candidates"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:157",
+        "route": "/gap/missing-predict-treatment-outcome-identify-recall-candidates",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "My Summary",
+    "canonicalKey": "my summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/my-summary"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/portal.js:33",
+        "route": "/my-summary",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "No Calendar Integration Despite Scheduling",
+    "canonicalKey": "calendar despite integration no scheduling",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/no-calendar-integration-despite-scheduling"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:164",
+        "route": "/gap/no-calendar-integration-despite-scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "No Electronic Health Records Ehr Compliance Layer",
+    "canonicalKey": "compliance ehr electronic health layer no records",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/no-electronic-health-records-ehr-compliance-layer"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:160",
+        "route": "/gap/no-electronic-health-records-ehr-compliance-layer",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "No Insurance Eligibility Verification Adapter",
+    "canonicalKey": "adapter eligibility insurance no verification",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/no-insurance-eligibility-verification-adapter"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:162",
+        "route": "/gap/no-insurance-eligibility-verification-adapter",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "No Intraoral Camera Integration",
+    "canonicalKey": "camera integration intraoral no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/no-intraoral-camera-integration"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:159",
+        "route": "/gap/no-intraoral-camera-integration",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "No Webhooks",
+    "canonicalKey": "no webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/no-webhooks"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:163",
+        "route": "/gap/no-webhooks",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Noshow Predict",
+    "canonicalKey": "noshow predict",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/noshow-predict"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/noshowPredict.js:58",
+        "route": "/noshow-predict",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Optimize Scheduling",
+    "canonicalKey": "optimize scheduling",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/optimize-scheduling"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:515",
+        "route": "/optimize-scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Patient Portal Is Scaffolded But Reminder System Incomplete",
+    "canonicalKey": "but incomplete is patient portal reminder scaffolded",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/patient-portal-is-scaffolded-but-reminder-system-incomplete"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:161",
+        "route": "/gap/patient-portal-is-scaffolded-but-reminder-system-incomplete",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Patient Risk Scoring",
+    "canonicalKey": "patient risk scoring",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/patient-risk-scoring"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:468",
+        "route": "/patient-risk-scoring",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Patient Risk Stratification",
+    "canonicalKey": "patient risk stratification",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/patient-risk-stratification"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:152",
+        "route": "/cf/patient-risk-stratification",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Perio Recall Readiness",
+    "canonicalKey": "perio readiness recall",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/PerioRecallReadiness",
+      "/perio-recall-readiness"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:140",
+        "route": "/perio-recall-readiness",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:79",
+        "route": "/perio-recall-readiness",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/PerioRecallReadiness.js",
+        "route": "/PerioRecallReadiness",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Portal And Cv",
+    "canonicalKey": "and cv portal",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/PortalAndCv"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/PortalAndCv.js",
+        "route": "/PortalAndCv",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Portal Cv",
+    "canonicalKey": "cv portal",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/portal-cv"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:147",
+        "route": "/portal-cv",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:86",
+        "route": "/portal-cv",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Practice Insights",
+    "canonicalKey": "insight practice",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/practice-insights"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:216",
+        "route": "/practice-insights",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Predict No Show",
+    "canonicalKey": "no predict show",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/predict-no-show"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:332",
+        "route": "/predict-no-show",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Predict Treatment Outcome",
+    "canonicalKey": "outcome predict treatment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/predict-treatment-outcome"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:421",
+        "route": "/predict-treatment-outcome",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Predict Turnaround Time",
+    "canonicalKey": "predict time turnaround",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/predict-turnaround-time"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/aiNew.js:279",
+        "route": "/predict-turnaround-time",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Predictive AI Diagnostics",
+    "canonicalKey": "ai diagnostic predictive",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/predictive-ai-diagnostics"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:151",
+        "route": "/cf/predictive-ai-diagnostics",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Procedures",
+    "canonicalKey": "procedure",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/procedures"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/reports.js:85",
+        "route": "/procedures",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Quality Analytics",
+    "canonicalKey": "analytic quality",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/quality-analytics"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/aiNew.js:40",
+        "route": "/quality-analytics",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Recall Campaigns",
+    "canonicalKey": "campaign recall",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/RecallCampaigns"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/RecallCampaigns.js",
+        "route": "/RecallCampaigns",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Risk Stratify",
+    "canonicalKey": "risk stratify",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/risk-stratify"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/riskStratify.js:58",
+        "route": "/risk-stratify",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Root Cause Analysis",
+    "canonicalKey": "analysis cause root",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/root-cause-analysis"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/ai.js:142",
+        "route": "/root-cause-analysis",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Schedule Timeline",
+    "canonicalKey": "schedule timeline",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/schedule-timeline"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/customViews.js:56",
+        "route": "/schedule-timeline",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Scheduling",
+    "canonicalKey": "scheduling",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Scheduling",
+      "/scheduling"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:122",
+        "route": "/scheduling",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:146",
+        "route": "/scheduling",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Scheduling.js",
+        "route": "/Scheduling",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:138",
+        "route": "/scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:77",
+        "route": "/scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Dashboard.js:29",
+        "route": "/scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Scheduling.js",
+        "route": "/Scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Scheduling Rules",
+    "canonicalKey": "rule scheduling",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/scheduling-rules"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "ihss_scheduling"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/customViews.js:180",
+        "route": "/scheduling-rules",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/customViews.js:184",
+        "route": "/scheduling-rules",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/customViews.js:270",
+        "route": "/scheduling-rules",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/customViews.js:280",
+        "route": "/scheduling-rules",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Supply Optimize",
+    "canonicalKey": "optimize supply",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/supply-optimize"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/supplyOptimize.js:57",
+        "route": "/supply-optimize",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Sync",
+    "canonicalKey": "sync",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/sync",
+      "/cad-integration/sync",
+      "/dentrix/sync",
+      "/eaglesoft/sync",
+      "/ehr/sync",
+      "/fhir/sync",
+      "/opendental/sync",
+      "/wearable/sync",
+      "/workday/sync"
+    ],
+    "sourceProjects": [
+      "AIAmbulanceEMSDispatch",
+      "AIClinicalTrialMatching",
+      "AIDentalPracticeManager",
+      "AIPatientTriageforER",
+      "AIPharmacyOperationsManager",
+      "AIPhysicalTherapyMovementAnalyzer",
+      "ihss_scheduling"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager",
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/integrations.js:87",
+        "route": "/fhir/sync",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/routes/integrations.js:107",
+        "route": "/ehr/sync",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/aiBacklog.js:288",
+        "route": "/cad-integration/sync",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ehrIntegrations.js:83",
+        "route": "/:id/sync",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/hrisSync.js:44",
+        "route": "/workday/sync",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/routes/integrations.js:101",
+        "route": "/ehr/sync",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/routes/integrations.js:117",
+        "route": "/wearable/sync",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/integrations.js:24",
+        "route": "/dentrix/sync",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/integrations.js:36",
+        "route": "/opendental/sync",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/integrations.js:48",
+        "route": "/eaglesoft/sync",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Tech Skill Match",
+    "canonicalKey": "match skill tech",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/tech-skill-match"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/techSkillMatch.js:57",
+        "route": "/tech-skill-match",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Technician Skill Match",
+    "canonicalKey": "match skill technician",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/technician-skill-match"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/aiNew.js:334",
+        "route": "/technician-skill-match",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Technician Workload Heatmap",
+    "canonicalKey": "heatmap technician workload",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/technician-workload-heatmap"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/customViews.js:57",
+        "route": "/technician-workload-heatmap",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Treatment Heatmap",
+    "canonicalKey": "heatmap treatment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/treatment-heatmap"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/customViews.js:117",
+        "route": "/treatment-heatmap",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Treatment Outcome Prediction",
+    "canonicalKey": "outcome prediction treatment",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/treatment-outcome-prediction"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:153",
+        "route": "/cf/treatment-outcome-prediction",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Treatment Plan Pdf",
+    "canonicalKey": "pdf plan treatment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/treatment-plan-pdf"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/customViews.js:172",
+        "route": "/treatment-plan-pdf",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Treatment Plan Summary",
+    "canonicalKey": "plan summary treatment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/treatment-plan-summary"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/aiNew.js:126",
+        "route": "/treatment-plan-summary",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Treatment Recommendations Png",
+    "canonicalKey": "png recommendations treatment",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "test-results/treatment-recommendations.png"
+    ],
+    "sourceProjects": [
+      "dental"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "tests/treatment-recommendations.spec.ts:165",
+        "route": "test-results/treatment-recommendations.png",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Treatments",
+    "canonicalKey": "treatment",
+    "aliases": [
+      "Treatment Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/TreatmentPage",
+      "/dashboard/treatments",
+      "/treatments"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "AIPatientTriageforER",
+      "dental"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/patient-triagefor-er"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/pages/TreatmentPage.js",
+        "route": "/TreatmentPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/App.js:102",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/components/Layout.js:26",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/pages/Dashboard.js:12",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:136",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:75",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Dashboard.js:31",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/treatments/page.tsx",
+        "route": "/dashboard/treatments",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Turnaround By Type",
+    "canonicalKey": "by turnaround type",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/turnaround-by-type"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/customViews.js:30",
+        "route": "/turnaround-by-type",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Turnaround Predict",
+    "canonicalKey": "predict turnaround",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/turnaround-predict"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/turnaroundPredict.js:57",
+        "route": "/turnaround-predict",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Workflow Rules",
+    "canonicalKey": "rule workflow",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/workflow-rules"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/customViews.js:211",
+        "route": "/workflow-rules",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/customViews.js:216",
+        "route": "/workflow-rules",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Xray Analysis",
+    "canonicalKey": "analysis xray",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/XrayAnalysis"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/XrayAnalysis.js",
+        "route": "/XrayAnalysis",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Xray Diagnostics",
+    "canonicalKey": "diagnostic xray",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/xray-diagnostics"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/xrayDiagnostics.js:58",
+        "route": "/xray-diagnostics",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Xraycv Lacks AI Diagnosis Endpoint Diagnose From Xray",
+    "canonicalKey": "ai diagnose diagnosis endpoint from lacks xray xraycv",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:156",
+        "route": "/gap/xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Xrays",
+    "canonicalKey": "xray",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/xrays"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:135",
+        "route": "/xrays",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:74",
+        "route": "/xrays",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  }
+]
