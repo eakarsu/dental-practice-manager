@@ -10,12 +10,12 @@
     "AIDentalPracticeManager",
     "dental"
   ],
-  "featureCount": 98,
-  "candidateFeatureCount": 154,
-  "eliminatedSimilarFeatures": 56,
-  "evidenceCount": 127,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 105,
+  "candidateFeatureCount": 160,
+  "eliminatedSimilarFeatures": 55,
+  "evidenceCount": 142,
+  "aiPageCount": 14,
+  "sourceAIPageCount": 14,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -24,6 +24,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 53,
-  "featureVisibilityMode": "source-backed-fallback"
+  "visibleFeatureCount": 14,
+  "featureVisibilityMode": "seeded-or-ai"
 }

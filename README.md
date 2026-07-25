@@ -3,7 +3,7 @@
 Industry: **Healthcare & Life Sciences**  
 Specialization: **Dental Practice Manager**
 
-This standalone application consolidates source-backed capabilities into 98 optimized features, including 53 visible data-backed or AI-enabled views. Its public demo SQLite database contains 0 sanitized source rows across 0 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 105 optimized features, including 14 visible data-backed or AI-enabled views. Its public demo SQLite database contains 0 sanitized source rows across 0 imported tables and 120 operational workflow records.
 
 ## Run locally
 

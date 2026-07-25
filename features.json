@@ -608,6 +608,32 @@
     ]
   },
   {
+    "name": "Dashboard Insights",
+    "canonicalKey": "dashboard insight",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard?tool=dashboard-insights"
+    ],
+    "sourceProjects": [
+      "dental"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/page.tsx:1",
+        "route": "/dashboard?tool=dashboard-insights",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
     "name": "Defect Prevent",
     "canonicalKey": "defect prevent",
     "aliases": [],
@@ -1114,9 +1140,11 @@
     "canonicalKey": "candidate identify recall",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new-tools?tool=identify-recall-candidates",
       "/identify-recall-candidates"
     ],
     "sourceProjects": [
@@ -1126,6 +1154,13 @@
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js:43",
+        "route": "/ai-new-tools?tool=identify-recall-candidates",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -1192,9 +1227,11 @@
     "canonicalKey": "claim insurance optimization",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new-tools?tool=insurance-claim-optimization",
       "/insurance-claim-optimization"
     ],
     "sourceProjects": [
@@ -1204,6 +1241,13 @@
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js:95",
+        "route": "/ai-new-tools?tool=insurance-claim-optimization",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -1235,6 +1279,32 @@
         "sourceProject": "AIDentalPracticeManager",
         "path": "frontend/src/pages/InsuranceClaims.js",
         "route": "/InsuranceClaims",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Insurance Pre Authorization",
+    "canonicalKey": "authorization insurance pre",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/insurance"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/InsuranceClaims.js:1",
+        "route": "/insurance",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
@@ -1582,9 +1652,11 @@
     "canonicalKey": "optimize scheduling",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new-tools?tool=optimize-scheduling",
       "/optimize-scheduling"
     ],
     "sourceProjects": [
@@ -1594,6 +1666,13 @@
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js:82",
+        "route": "/ai-new-tools?tool=optimize-scheduling",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -1634,9 +1713,11 @@
     "canonicalKey": "patient risk scoring",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new-tools?tool=patient-risk-scoring",
       "/patient-risk-scoring"
     ],
     "sourceProjects": [
@@ -1646,6 +1727,13 @@
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js:69",
+        "route": "/ai-new-tools?tool=patient-risk-scoring",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -1677,6 +1765,32 @@
         "sourceProject": "AIDentalPracticeManager",
         "path": "frontend/src/App.js:152",
         "route": "/cf/patient-risk-stratification",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Patient Scheduling",
+    "canonicalKey": "patient scheduling",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/scheduling"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Scheduling.js:1",
+        "route": "/scheduling",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
@@ -1782,6 +1896,32 @@
     ]
   },
   {
+    "name": "Portal X Ray Cv",
+    "canonicalKey": "cv portal ray x",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/portal-cv"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/PortalAndCv.js:1",
+        "route": "/portal-cv",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
     "name": "Practice Insights",
     "canonicalKey": "insight practice",
     "aliases": [],
@@ -1812,9 +1952,11 @@
     "canonicalKey": "no predict show",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new-tools?tool=predict-no-show",
       "/predict-no-show"
     ],
     "sourceProjects": [
@@ -1824,6 +1966,13 @@
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js:30",
+        "route": "/ai-new-tools?tool=predict-no-show",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -1838,9 +1987,11 @@
     "canonicalKey": "outcome predict treatment",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new-tools?tool=predict-treatment-outcome",
       "/predict-treatment-outcome"
     ],
     "sourceProjects": [
@@ -1850,6 +2001,13 @@
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js:56",
+        "route": "/ai-new-tools?tool=predict-treatment-outcome",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -1968,10 +2126,12 @@
     "canonicalKey": "campaign recall",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/RecallCampaigns"
+      "/RecallCampaigns",
+      "/recalls"
     ],
     "sourceProjects": [
       "AIDentalPracticeManager"
@@ -1981,10 +2141,43 @@
     ],
     "evidence": [
       {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/RecallCampaigns.js:1",
+        "route": "/recalls",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIDentalPracticeManager",
         "path": "frontend/src/pages/RecallCampaigns.js",
         "route": "/RecallCampaigns",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Revenue Forecast",
+    "canonicalKey": "forecast revenue",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/dashboard?tool=revenue-forecast"
+    ],
+    "sourceProjects": [
+      "dental"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/page.tsx:1",
+        "route": "/dashboard?tool=revenue-forecast",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
@@ -2479,6 +2672,41 @@
     ]
   },
   {
+    "name": "Treatment Plans",
+    "canonicalKey": "plan treatment",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "page"
+    ],
+    "routes": [
+      "/TreatmentPlans",
+      "/treatments"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/TreatmentPlans.js:1",
+        "route": "/treatments",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/TreatmentPlans.js",
+        "route": "/TreatmentPlans",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
     "name": "Treatment Recommendations Png",
     "canonicalKey": "png recommendation treatment",
     "aliases": [],
@@ -2667,6 +2895,32 @@
         "sourceProject": "AIDentalLabCaseManager",
         "path": "backend/routes/customViews.js:216",
         "route": "/workflow-rules",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "X Ray Analysis",
+    "canonicalKey": "analysis ray x",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/xrays"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/XrayAnalysis.js:1",
+        "route": "/xrays",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
