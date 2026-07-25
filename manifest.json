@@ -10,9 +10,9 @@
     "AIDentalPracticeManager",
     "dental"
   ],
-  "featureCount": 96,
-  "candidateFeatureCount": 146,
-  "eliminatedSimilarFeatures": 50,
+  "featureCount": 98,
+  "candidateFeatureCount": 154,
+  "eliminatedSimilarFeatures": 56,
   "evidenceCount": 127,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
@@ -24,6 +24,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 52,
+  "visibleFeatureCount": 53,
   "featureVisibilityMode": "source-backed-fallback"
 }

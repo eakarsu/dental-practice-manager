@@ -1,5 +1,31 @@
 [
   {
+    "name": "Adjust",
+    "canonicalKey": "adjust",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/adjust"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/inventory.js:84",
+        "route": "/:id/adjust",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
     "name": "AI Draft",
     "canonicalKey": "ai draft",
     "aliases": [],
@@ -78,32 +104,6 @@
     ]
   },
   {
-    "name": "Adjust",
-    "canonicalKey": "adjust",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/adjust"
-    ],
-    "sourceProjects": [
-      "AIDentalPracticeManager"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/dental-practice-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/routes/inventory.js:84",
-        "route": "/:id/adjust",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      }
-    ]
-  },
-  {
     "name": "Appointment No Show Prediction",
     "canonicalKey": "appointment no prediction show",
     "aliases": [],
@@ -125,6 +125,42 @@
         "sourceProject": "AIDentalPracticeManager",
         "path": "frontend/src/App.js:154",
         "route": "/cf/appointment-no-show-prediction",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Approvals",
+    "canonicalKey": "approval",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:id/approvals",
+      "/recommendations/:id/approvals"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager",
+      "AIhomecompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/governance/routes.js:82",
+        "route": "/recommendations/:id/approvals",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/governedWorkflow.js:94",
+        "route": "/cases/:id/approvals",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
@@ -546,6 +582,32 @@
     ]
   },
   {
+    "name": "Clinical Review",
+    "canonicalKey": "clinical review",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/dashboard/clinical-review"
+    ],
+    "sourceProjects": [
+      "dental"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/clinical-review/page.tsx",
+        "route": "/dashboard/clinical-review",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
     "name": "Defect Prevent",
     "canonicalKey": "defect prevent",
     "aliases": [],
@@ -625,7 +687,7 @@
   },
   {
     "name": "Gap Limited Pacs Integration Only Integrations Js Stub",
-    "canonicalKey": "gap integration integrations js limited only pacs stub",
+    "canonicalKey": "gap integration js limited only pacs stub",
     "aliases": [],
     "kinds": [
       "page"
@@ -729,7 +791,7 @@
   },
   {
     "name": "Gap No Detailed Case Detail Schema Materials Dentist Contact Pat",
-    "canonicalKey": "case contact dentist detailed gap materials no pat schema",
+    "canonicalKey": "case contact dentist detailed gap material no pat schema",
     "aliases": [],
     "kinds": [
       "page"
@@ -755,7 +817,7 @@
   },
   {
     "name": "Gap No Electronic Health Records Ehr Compliance Layer",
-    "canonicalKey": "compliance ehr electronic gap health layer no records",
+    "canonicalKey": "compliance ehr electronic gap health layer no record",
     "aliases": [],
     "kinds": [
       "page"
@@ -971,7 +1033,7 @@
   },
   {
     "name": "Gap None All AI Functions Are Covered Highest AI Density",
-    "canonicalKey": "ai all are covered density functions gap highest none",
+    "canonicalKey": "ai all are covered density function gap highest none",
     "aliases": [],
     "kinds": [
       "page"
@@ -1023,7 +1085,7 @@
   },
   {
     "name": "Gap Xraycv Lacks AI Diagnosis Endpoint Diagnose From Xray",
-    "canonicalKey": "ai diagnose diagnosis endpoint from gap lacks xray xraycv",
+    "canonicalKey": "ai diagnose diagnosis endpoint from gap lack xray xraycv",
     "aliases": [],
     "kinds": [
       "page"
@@ -1205,7 +1267,7 @@
   },
   {
     "name": "Limited Pacs Integration Only Integrations Js Stub",
-    "canonicalKey": "integration integrations js limited only pacs stub",
+    "canonicalKey": "integration js limited only pacs stub",
     "aliases": [],
     "kinds": [
       "page"
@@ -1387,7 +1449,7 @@
   },
   {
     "name": "No Electronic Health Records Ehr Compliance Layer",
-    "canonicalKey": "compliance ehr electronic health layer no records",
+    "canonicalKey": "compliance ehr electronic health layer no record",
     "aliases": [],
     "kinds": [
       "page"
@@ -2087,28 +2149,12 @@
       "/scheduling-rules"
     ],
     "sourceProjects": [
-      "AIDentalPracticeManager",
-      "ihss_scheduling"
+      "AIDentalPracticeManager"
     ],
     "consolidatedFromApps": [
-      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/dental-practice-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/customViews.js:180",
-        "route": "/scheduling-rules",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/customViews.js:184",
-        "route": "/scheduling-rules",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
@@ -2166,8 +2212,7 @@
       "/ehr/sync",
       "/fhir/sync",
       "/opendental/sync",
-      "/wearable/sync",
-      "/workday/sync"
+      "/wearable/sync"
     ],
     "sourceProjects": [
       "AIAmbulanceEMSDispatch",
@@ -2175,13 +2220,11 @@
       "AIDentalPracticeManager",
       "AIPatientTriageforER",
       "AIPharmacyOperationsManager",
-      "AIPhysicalTherapyMovementAnalyzer",
-      "ihss_scheduling"
+      "AIPhysicalTherapyMovementAnalyzer"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
       "healthcare-life-sciences/ambulance-ems-dispatch",
-      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/dental-practice-manager",
       "healthcare-life-sciences/patient-triagefor-er",
       "healthcare-life-sciences/pharmacy-operations-manager",
@@ -2190,10 +2233,10 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/integrations.js:87",
-        "route": "/fhir/sync",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/aiBacklog.js:288",
+        "route": "/cad-integration/sync",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
@@ -2204,10 +2247,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/aiBacklog.js:288",
-        "route": "/cad-integration/sync",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/integrations.js:87",
+        "route": "/fhir/sync",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
@@ -2215,27 +2258,6 @@
         "path": "backend/src/routes/ehrIntegrations.js:83",
         "route": "/:id/sync",
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/hrisSync.js:44",
-        "route": "/workday/sync",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/integrations.js:101",
-        "route": "/ehr/sync",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/integrations.js:117",
-        "route": "/wearable/sync",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
       {
         "kind": "api",
@@ -2257,6 +2279,20 @@
         "path": "backend/routes/integrations.js:48",
         "route": "/eaglesoft/sync",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/routes/integrations.js:101",
+        "route": "/ehr/sync",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/routes/integrations.js:117",
+        "route": "/wearable/sync",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
   },
@@ -2444,7 +2480,7 @@
   },
   {
     "name": "Treatment Recommendations Png",
-    "canonicalKey": "png recommendations treatment",
+    "canonicalKey": "png recommendation treatment",
     "aliases": [],
     "kinds": [
       "page"
@@ -2596,7 +2632,7 @@
       {
         "kind": "api",
         "sourceProject": "AIDentalLabCaseManager",
-        "path": "backend/routes/turnaroundPredict.js:57",
+        "path": "backend/routes/turnaroundPredict.js:58",
         "route": "/turnaround-predict",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
@@ -2689,7 +2725,7 @@
   },
   {
     "name": "Xraycv Lacks AI Diagnosis Endpoint Diagnose From Xray",
-    "canonicalKey": "ai diagnose diagnosis endpoint from lacks xray xraycv",
+    "canonicalKey": "ai diagnose diagnosis endpoint from lack xray xraycv",
     "aliases": [],
     "kinds": [
       "page"
